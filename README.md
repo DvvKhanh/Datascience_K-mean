@@ -12,7 +12,7 @@ BT_K-mean/
 │   → File dữ liệu điểm sinh viên
 │
 ├── K-mean.ipynb
-│   → File code Jupyter Notebook
+│   → File code Python/Jupyter Notebook
 │
 ├── KetQua_XepLoai_GPA.xlsx
 │   → File kết quả sau khi xử lý GPA
@@ -28,7 +28,57 @@ BT_K-mean/
 ```
 
 ## Cách chạy chương trình
-### Bước 1: Tải folder BT_K-mean và file BangDiemK58KTP.xlsx
-- Tải project BT_K-mean từ GitHub về máy.
-- Tải file dữ liệu BangDiemK58KTP.xlsx.
-- Sau đó đặt file Excel vào trong folder BT_K-mean.
+### Bước 1: Tải folder BT_K-mean
+- Đầu tiên:
+  + Tải project BT_K-mean từ GitHub về máy.
+  + Sau đó giải nén file .zip.
+- Trong folder đã có sẵn:
+  + File code Python và file dữ liệu Excel BangDiemK58KTP.xlsx.
+  
+### Bước 2: Mở project bằng môi trường lập trình Python
+- Mở một môi trường lập trình Python bất kỳ, ví dụ:
+  + Visual Studio Code (VS Code)
+  + PyCharm
+  + Jupyter Notebook
+  + Google Colab
+- Sau đó mở folder: BT_K-mean
+- Tiếp theo mở file: K-mean.ipynb để chạy chương trình.
+
+### Bước 3: Cài các thư viện cần thiết
+- Mở Terminal hoặc Command Prompt trong môi trường lập trình và nhập lệnh:
+```pip install pandas numpy matplotlib openpyxl scikit-learn```
+- Sau đó nhấn biểu tượng ▶ (Run) ở bên trái ô code để thực thi chương trình.
+
+### Bước 4: Mở file code
+- Trong folder project mở file: K-mean.ipynb
+- Đây là file chứa toàn bộ code chương trình:
+  + Đọc dữ liệu Excel.
+  + Tính GPA.
+  + Phân loại học lực.
+  + Phân cụm K-Means.
+  + Vẽ biểu đồ.
+  + Xuất file Excel kết quả.
+ 
+### Bước 5: Chọn môi trường Python
+- Nếu phần mềm yêu cầu chọn Python Interpreter hoặc Kernel thì chọn: Python 3.x
+
+### Bước 6: Chạy chương trình
+- Có thể chạy bằng:
+  + Nút Run All
+  + Hoặc chạy từng cell bằng: Shift + Enter hoặc nhấn biểu tượng ▶ (Run) ở bên trái ô code để thực thi chương trình.
+
+## Kết quả sau khi chạy
+Chương trình sẽ tự động:
+- Hiển thị:
+  + Danh sách sinh viên Giỏi
+  + Danh sách sinh viên Khá
+  + Danh sách sinh viên Trung bình
+- Hiển thị biểu đồ:
+  + Biểu đồ cột thống kê học lực
+  + Biểu đồ phân cụm K-Means
+  + Biểu đồ tròn tỷ lệ học lực
+- Xuất file:
+  + KetQua_XepLoai_GPA.xlsx
+  + bieu_do_cot.png
+  + bieu_do_kmeans.png
+  + bieu_do_tron.png
