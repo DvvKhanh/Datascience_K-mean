@@ -28,3 +28,7 @@ BT_K-mean/
 ```
 
 ## Cách chạy chương trình
+### Bước 1: Tải folder BT_K-mean và file BangDiemK58KTP.xlsx
+- Tải project BT_K-mean từ GitHub về máy.
+- Tải file dữ liệu BangDiemK58KTP.xlsx.
+- Sau đó đặt file Excel vào trong folder BT_K-mean.
